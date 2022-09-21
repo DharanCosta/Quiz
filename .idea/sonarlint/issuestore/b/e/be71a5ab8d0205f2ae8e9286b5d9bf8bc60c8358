@@ -1,0 +1,8 @@
+
+…
+java:S1319"oThe type of "listaDeQuestoes" should be an interface such as "List" rather than the implementation "ArrayList".(Œ‘§£
+’
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(î²œ¥ÿÿÿÿÿ8ë”ÌÛµ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æÍã›
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

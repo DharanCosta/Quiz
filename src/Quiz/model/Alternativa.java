@@ -1,9 +1,18 @@
 package Quiz.model;
 
-public class Alternativa {
+import java.util.List;
+
+public class Alternativa{
     private Letra letra;
     private String texto;
     private boolean certo;
+
+//    public Alternativa(int numero, String texto, int acertou, List<Alternativa> alternativas, Letra letra, String texto1, boolean certo) {
+//        super(numero, texto, acertou, alternativas);
+//        this.letra = letra;
+//        this.texto = texto1;
+//        this.certo = certo;
+//    }
 
     public Alternativa(Letra letra, String texto, boolean certo) {
         this.letra = letra;

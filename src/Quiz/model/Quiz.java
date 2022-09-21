@@ -1,19 +1,20 @@
 package Quiz.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Quiz {
+public class Quiz {
     private String nomeDoQuiz = "Quiz Iteris";
-    private List<Questão> listaDeQuestoes;
+    private List<Questao> listaDeQuestoes;
 
+    private int nota;
 
     public String getNomeDoQuiz() {
         return nomeDoQuiz;
     }
 
-    public List<Questão> getListaDeQuestoes() {
-        return listaDeQuestoes;
+    public List<Questao> getListaDeQuestoes() {
+                return listaDeQuestoes;
     }
 
-//    public boolean acertou(String entrada, )
 }
